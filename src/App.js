@@ -11,7 +11,6 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardMedia from "@mui/material/CardMedia";
 import "./App.css";
 
@@ -164,9 +163,6 @@ class App extends Component {
 
             <Card>
               <CardMedia component="img" image={this.state.pathToReport} />
-              <CardActions>
-                <Button size="small">Share</Button>
-              </CardActions>
             </Card>
           </Container>
 

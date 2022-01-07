@@ -7,9 +7,9 @@
 
 # testing
 /coverage
-test.json
 /public/reports
 /temp/
+/wolt/reports/*
 
 # production
 /build
